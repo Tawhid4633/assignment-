@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+header{
+    width: 100%;
+    height: 90px;
+}
+.nav{
+    width: 85%;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1 h1{
+    padding-top: 22px;
+}
+.nav2 button{
+    height: 35px;
+    width: 130px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+#section1{
+    width: 100%;
+    height: 630px;
+    background-image: url(assets/Hero-bg.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    display: block;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.pic img{
+    height: 170px;
+}
+.pic1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.pic1 h1{
+    font-size: 40px;
+    text-align: center;
+} 
+.pic2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-bottom: 20px;
+}
+.pic3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic3 button{
+    height: 50px;
+    width: 130px;
+    border: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#section2{
+    width: 100%;
+    height: 1350px;
+}
+.first{
+    padding-top: 50px;
+}
+.first h1{
+    font-size: 40px;
+}
+.first h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.first p{
+    text-align: center;
+}
+.second{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.second1{
+    width: 600px;
+}
+.second1 h1{
+    font-size: 30px;
+}
+.second1 p{
+    text-align: left;
+}
+.second1 button{
+    margin-top: 30px;
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.304);
+}
+.third{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.third2{
+    width: 600px;
+}
+.third h1{
+    text-align: left;
+}
+.third2 p{
+    text-align: left;
+}
+.third2 button{
+    margin-top: 30px;
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.304);
+}
+
+.fourth{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth1{
+    width: 600px;
+}
+.fourth1 h1{
+    font-size: 30px;
+}
+.fourth1 p{
+    text-align: left;
+}
+.fourth1 button{
+    margin-top: 30px;
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.304);
+}
+
+#section3{
+    width: 100%;
+    height: 750px;
+}
+.hi{
+    padding-bottom: 50px;
+}
+.hi h1,p{
+text-align: center;
+}
+.hi1 iframe{
+    width: 100%;
+    height: 500px;
+}
+
+#section4{
+    width: 100%;
+    height: 700px;
+}
+.div1 h1{
+    text-align: center;
+}
+.div1 p{
+    text-align: center;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 20px;
+}
+.div21{
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    background-color: rgb(198, 245, 229);
+}
+.div21 h1,p{
+text-align: left;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.div21 a{
+    color: black;
+}
+
+.div221{
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    background-color: rgb(251, 251, 175);
+}
+.div221 h1,p{
+text-align: left;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.div221 a{
+    color: black;
+}
+
+
+.div231{
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    background-color: rgb(198, 245, 229);
+}
+.div231 h1,p{
+text-align: left;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.div231 a{
+    color: black;
+}
+.div3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.div3 h1{
+    text-align: center;
+}
+.div3 p{
+    text-align: center;
+}
+.div4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.div5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.div6{
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.divvv{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 170px;
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.divvv{
+    color: white;
+    text-align: center;
+}
+.divvv p{
+    text-align: center;
+}
+.divvvv{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+.divvv1 input{
+    width: 300px;
+    height: 40px;
+}
+.divvv2 button{
+    width: 120px;
+    height: 40px;
+}
+.div555{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.div5551 p{
+    font-weight: bold;    
+}
+.div5552{
+    display: flex;
+    gap: 10px;
+}
